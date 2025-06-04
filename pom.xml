@@ -49,7 +49,7 @@
 
     <build>
         <plugins>
-            <!-- Установка локальной библиотеки в репозиторий Maven -->
+            <!-- Installing lib to the local repo -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-install-plugin</artifactId>
@@ -72,7 +72,7 @@
                 </executions>
             </plugin>
 
-            <!-- Компиляция -->
+            <!-- Compilation -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -84,7 +84,7 @@
                 </configuration>
             </plugin>
 
-            <!-- Запуск JavaFX приложения -->
+            <!-- Start JavaFX  -->
             <plugin>
                 <groupId>org.openjfx</groupId>
                 <artifactId>javafx-maven-plugin</artifactId>
